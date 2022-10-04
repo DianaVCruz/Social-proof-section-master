@@ -6,6 +6,8 @@ body{
   background: url(../images/bg-pattern-top-mobile.svg), url(../images/bg-pattern-bottom-mobile.svg);
   background-position: top left, bottom right;
   background-repeat: no-repeat;
+  display: grid;
+  place-content: center;
 }
 main{
   display: flex;
